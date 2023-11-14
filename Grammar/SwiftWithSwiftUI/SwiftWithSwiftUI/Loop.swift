@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct Loop: View {
+    
+    let exampleArray: [String] = ["a", "b", "c", "d"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            ForEach(exampleArray, id:\.self) { index in
+                Text("\(index)")
+            }
+            
+            ForEach(0..<4) { number in
+                Text(number.description)
+                Text(exampleArray[number])
+            }
+        }
     }
 }
 

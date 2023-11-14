@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct Condition: View {
+    
+    var randomNumber: Int = 4
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    
+        if (randomNumber % 2) == 0 {
+            Text("짝수")
+        } else {
+            Text("홀수")
+        }
+
     }
 }
 
