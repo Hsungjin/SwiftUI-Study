@@ -19,6 +19,12 @@
 		640950042B03F14100F527D1 /* Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950032B03F14100F527D1 /* Loop.swift */; };
 		640950062B03F2BC00F527D1 /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950052B03F2BC00F527D1 /* MyFunction.swift */; };
 		640950082B03F47E00F527D1 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950072B03F47E00F527D1 /* MyEnum.swift */; };
+		6409507F2B0536B000F527D1 /* MyOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409507E2B0536B000F527D1 /* MyOptional.swift */; };
+		640950812B0539C800F527D1 /* MyClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950802B0539C800F527D1 /* MyClosure.swift */; };
+		640950832B053DEE00F527D1 /* MyStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950822B053DEE00F527D1 /* MyStruct.swift */; };
+		640950852B05449500F527D1 /* MyOptionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950842B05449500F527D1 /* MyOptionalBinding.swift */; };
+		640950872B05466000F527D1 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950862B05466000F527D1 /* MyClass.swift */; };
+		640950892B0549ED00F527D1 /* MyOptionalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950882B0549ED00F527D1 /* MyOptionalChaining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,12 @@
 		640950032B03F14100F527D1 /* Loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop.swift; sourceTree = "<group>"; };
 		640950052B03F2BC00F527D1 /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
 		640950072B03F47E00F527D1 /* MyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
+		6409507E2B0536B000F527D1 /* MyOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptional.swift; sourceTree = "<group>"; };
+		640950802B0539C800F527D1 /* MyClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClosure.swift; sourceTree = "<group>"; };
+		640950822B053DEE00F527D1 /* MyStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStruct.swift; sourceTree = "<group>"; };
+		640950842B05449500F527D1 /* MyOptionalBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptionalBinding.swift; sourceTree = "<group>"; };
+		640950862B05466000F527D1 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		640950882B0549ED00F527D1 /* MyOptionalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptionalChaining.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,12 @@
 				640950032B03F14100F527D1 /* Loop.swift */,
 				640950052B03F2BC00F527D1 /* MyFunction.swift */,
 				640950072B03F47E00F527D1 /* MyEnum.swift */,
+				6409507E2B0536B000F527D1 /* MyOptional.swift */,
+				640950802B0539C800F527D1 /* MyClosure.swift */,
+				640950822B053DEE00F527D1 /* MyStruct.swift */,
+				640950842B05449500F527D1 /* MyOptionalBinding.swift */,
+				640950862B05466000F527D1 /* MyClass.swift */,
+				640950882B0549ED00F527D1 /* MyOptionalChaining.swift */,
 				64094FED2B03E86400F527D1 /* ContentView.swift */,
 				64094FEF2B03E86500F527D1 /* Assets.xcassets */,
 				64094FF12B03E86500F527D1 /* Preview Content */,
@@ -161,10 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640950892B0549ED00F527D1 /* MyOptionalChaining.swift in Sources */,
+				640950832B053DEE00F527D1 /* MyStruct.swift in Sources */,
 				640950002B03EE3F00F527D1 /* Variable4.swift in Sources */,
+				640950872B05466000F527D1 /* MyClass.swift in Sources */,
 				64094FEE2B03E86400F527D1 /* ContentView.swift in Sources */,
+				640950852B05449500F527D1 /* MyOptionalBinding.swift in Sources */,
 				640950062B03F2BC00F527D1 /* MyFunction.swift in Sources */,
 				640950022B03F06E00F527D1 /* Condition.swift in Sources */,
+				6409507F2B0536B000F527D1 /* MyOptional.swift in Sources */,
+				640950812B0539C800F527D1 /* MyClosure.swift in Sources */,
 				640950082B03F47E00F527D1 /* MyEnum.swift in Sources */,
 				64094FFA2B03E8B000F527D1 /* Variable.swift in Sources */,
 				64094FFC2B03EA7A00F527D1 /* Variable2.swift in Sources */,
