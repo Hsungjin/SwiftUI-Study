@@ -7,9 +7,27 @@
 
 import SwiftUI
 
+struct Student {
+    let name: String
+    let pet: Pet?
+}
+
+struct Pet {
+    let name: String
+    let age: Int?
+}
+
 struct MyOptionalChaining: View {
+    
+    let sungjin = Student(name: "sungjin", pet: Pet(name: "wow", age: 2))
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(sungjin.name)
+        Text(sungjin.pet?.name ?? "no pet")
+        
+        if let petName = sungjin.pet?.name {
+            Text(petName + "wow")
+        }
     }
 }
 
