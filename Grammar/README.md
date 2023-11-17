@@ -55,6 +55,12 @@
 ### MyOptionalChaining.swift - !(강제 - 위험하다)를 사용하지않고 ?(옵셔널 체이닝)을 사용하는 방법  
 
 
-## MyPropery.swift - 변수와 프로퍼티의 차이점  
+### MyPropery.swift - 저장 프로퍼티(변수) 와 연산프로퍼티의 활용  
+
+
+### MyMethod.swift - 함수와 메소드의 차이  
+
+
+### CheckPoint.swift - 중간 정리  
 
 

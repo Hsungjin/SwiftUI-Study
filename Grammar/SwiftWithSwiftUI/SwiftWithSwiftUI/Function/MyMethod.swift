@@ -26,16 +26,16 @@ struct MyMethod: View {
 
 #Preview {
     MyMethod()
-    returnSungjin()
-    //returnSungjin2() 는 MyMethod 구조체에서 사용되었기때문에 사용불가
+//    returnSungjin()
+//    returnSungjin2() 는 MyMethod 구조체에서 사용되었기때문에 사용불가
 //    returnSungjin2()
-    returnSungjin3()
+//    returnSungjin3()
     
 //    var sungjin = MyMethod()
 //    sungjin.returnSungjin2()
 
     
-    func returnSungjin3() -> String {
-        return "sungjin3"
-    }
+//    func returnSungjin3() -> String {
+//        return "sungjin3"
+//    }
 }
