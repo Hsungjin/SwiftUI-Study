@@ -52,7 +52,9 @@
 ### MyClass.swift - 클래스와 구조체의 비교(참조타입, 값타임에 따른 print 예제)  
 
 
-### MyOptionalChaining - !(강제 - 위험하다)를 사용하지않고 ?(옵셔널 체이닝)을 사용하는 방법  
+### MyOptionalChaining.swift - !(강제 - 위험하다)를 사용하지않고 ?(옵셔널 체이닝)을 사용하는 방법  
 
+
+## MyPropery.swift - 변수와 프로퍼티의 차이점  
 
 
