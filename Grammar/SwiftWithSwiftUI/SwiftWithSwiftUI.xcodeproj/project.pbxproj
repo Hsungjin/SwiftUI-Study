@@ -25,6 +25,7 @@
 		640950852B05449500F527D1 /* MyOptionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950842B05449500F527D1 /* MyOptionalBinding.swift */; };
 		640950872B05466000F527D1 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950862B05466000F527D1 /* MyClass.swift */; };
 		640950892B0549ED00F527D1 /* MyOptionalChaining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640950882B0549ED00F527D1 /* MyOptionalChaining.swift */; };
+		649D72042B07D982009B9A25 /* MyProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D72032B07D982009B9A25 /* MyProperty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		640950842B05449500F527D1 /* MyOptionalBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptionalBinding.swift; sourceTree = "<group>"; };
 		640950862B05466000F527D1 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		640950882B0549ED00F527D1 /* MyOptionalChaining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOptionalChaining.swift; sourceTree = "<group>"; };
+		649D72032B07D982009B9A25 /* MyProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProperty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				640950862B05466000F527D1 /* MyClass.swift */,
 				640950882B0549ED00F527D1 /* MyOptionalChaining.swift */,
 				64094FED2B03E86400F527D1 /* ContentView.swift */,
+				649D72032B07D982009B9A25 /* MyProperty.swift */,
 				64094FEF2B03E86500F527D1 /* Assets.xcassets */,
 				64094FF12B03E86500F527D1 /* Preview Content */,
 			);
@@ -186,6 +189,7 @@
 				64094FEE2B03E86400F527D1 /* ContentView.swift in Sources */,
 				640950852B05449500F527D1 /* MyOptionalBinding.swift in Sources */,
 				640950062B03F2BC00F527D1 /* MyFunction.swift in Sources */,
+				649D72042B07D982009B9A25 /* MyProperty.swift in Sources */,
 				640950022B03F06E00F527D1 /* Condition.swift in Sources */,
 				6409507F2B0536B000F527D1 /* MyOptional.swift in Sources */,
 				640950812B0539C800F527D1 /* MyClosure.swift in Sources */,
