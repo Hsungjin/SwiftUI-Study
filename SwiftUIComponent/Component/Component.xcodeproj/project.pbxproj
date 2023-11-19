@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64589B302B0A7ED40047711B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B2F2B0A7ED40047711B /* ImageView.swift */; };
+		64589B322B0A803D0047711B /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B312B0A803D0047711B /* StackView.swift */; };
+		64589B342B0A81AE0047711B /* ScrollViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B332B0A81AE0047711B /* ScrollViewEX.swift */; };
+		64589B362B0A84420047711B /* ListViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B352B0A84420047711B /* ListViewEX.swift */; };
+		64589B382B0A86890047711B /* SectionEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B372B0A86890047711B /* SectionEX.swift */; };
+		64589B3A2B0A88130047711B /* SpacerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B392B0A88130047711B /* SpacerEX.swift */; };
+		64589B3C2B0A89A30047711B /* ColorEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B3B2B0A89A30047711B /* ColorEX.swift */; };
 		649D72202B07EF39009B9A25 /* ComponentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D721F2B07EF39009B9A25 /* ComponentApp.swift */; };
 		649D72222B07EF39009B9A25 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D72212B07EF39009B9A25 /* ButtonView.swift */; };
 		649D72242B07EF3B009B9A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649D72232B07EF3B009B9A25 /* Assets.xcassets */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64589B2F2B0A7ED40047711B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		64589B312B0A803D0047711B /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		64589B332B0A81AE0047711B /* ScrollViewEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEX.swift; sourceTree = "<group>"; };
+		64589B352B0A84420047711B /* ListViewEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewEX.swift; sourceTree = "<group>"; };
+		64589B372B0A86890047711B /* SectionEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionEX.swift; sourceTree = "<group>"; };
+		64589B392B0A88130047711B /* SpacerEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerEX.swift; sourceTree = "<group>"; };
+		64589B3B2B0A89A30047711B /* ColorEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEX.swift; sourceTree = "<group>"; };
 		649D721C2B07EF39009B9A25 /* Component.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Component.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649D721F2B07EF39009B9A25 /* ComponentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentApp.swift; sourceTree = "<group>"; };
 		649D72212B07EF39009B9A25 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -59,6 +73,13 @@
 				649D72212B07EF39009B9A25 /* ButtonView.swift */,
 				649D722F2B07F586009B9A25 /* TextView.swift */,
 				649D722D2B07F3BD009B9A25 /* CheckPointView.swift */,
+				64589B2F2B0A7ED40047711B /* ImageView.swift */,
+				64589B312B0A803D0047711B /* StackView.swift */,
+				64589B332B0A81AE0047711B /* ScrollViewEX.swift */,
+				64589B352B0A84420047711B /* ListViewEX.swift */,
+				64589B372B0A86890047711B /* SectionEX.swift */,
+				64589B392B0A88130047711B /* SpacerEX.swift */,
+				64589B3B2B0A89A30047711B /* ColorEX.swift */,
 				649D72232B07EF3B009B9A25 /* Assets.xcassets */,
 				649D72252B07EF3B009B9A25 /* Preview Content */,
 			);
@@ -143,10 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64589B3A2B0A88130047711B /* SpacerEX.swift in Sources */,
+				64589B302B0A7ED40047711B /* ImageView.swift in Sources */,
+				64589B3C2B0A89A30047711B /* ColorEX.swift in Sources */,
+				64589B342B0A81AE0047711B /* ScrollViewEX.swift in Sources */,
+				64589B382B0A86890047711B /* SectionEX.swift in Sources */,
 				649D722E2B07F3BD009B9A25 /* CheckPointView.swift in Sources */,
 				649D72302B07F586009B9A25 /* TextView.swift in Sources */,
 				649D72222B07EF39009B9A25 /* ButtonView.swift in Sources */,
 				649D72202B07EF39009B9A25 /* ComponentApp.swift in Sources */,
+				64589B322B0A803D0047711B /* StackView.swift in Sources */,
+				64589B362B0A84420047711B /* ListViewEX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
