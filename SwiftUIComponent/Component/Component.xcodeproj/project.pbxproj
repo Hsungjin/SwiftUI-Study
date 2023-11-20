@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		642A034F2B0B592B00DBD9AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A034E2B0B592B00DBD9AD /* ContentView.swift */; };
+		642A03512B0B729C00DBD9AD /* DarkColorEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03502B0B729C00DBD9AD /* DarkColorEX.swift */; };
 		64589B302B0A7ED40047711B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B2F2B0A7ED40047711B /* ImageView.swift */; };
 		64589B322B0A803D0047711B /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B312B0A803D0047711B /* StackView.swift */; };
 		64589B342B0A81AE0047711B /* ScrollViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B332B0A81AE0047711B /* ScrollViewEX.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		642A034E2B0B592B00DBD9AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		642A03502B0B729C00DBD9AD /* DarkColorEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkColorEX.swift; sourceTree = "<group>"; };
 		64589B2F2B0A7ED40047711B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		64589B312B0A803D0047711B /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		64589B332B0A81AE0047711B /* ScrollViewEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEX.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 				64589B372B0A86890047711B /* SectionEX.swift */,
 				64589B392B0A88130047711B /* SpacerEX.swift */,
 				64589B3B2B0A89A30047711B /* ColorEX.swift */,
+				642A034E2B0B592B00DBD9AD /* ContentView.swift */,
+				642A03502B0B729C00DBD9AD /* DarkColorEX.swift */,
 				649D72232B07EF3B009B9A25 /* Assets.xcassets */,
 				649D72252B07EF3B009B9A25 /* Preview Content */,
 			);
@@ -171,10 +177,12 @@
 				64589B382B0A86890047711B /* SectionEX.swift in Sources */,
 				649D722E2B07F3BD009B9A25 /* CheckPointView.swift in Sources */,
 				649D72302B07F586009B9A25 /* TextView.swift in Sources */,
+				642A03512B0B729C00DBD9AD /* DarkColorEX.swift in Sources */,
 				649D72222B07EF39009B9A25 /* ButtonView.swift in Sources */,
 				649D72202B07EF39009B9A25 /* ComponentApp.swift in Sources */,
 				64589B322B0A803D0047711B /* StackView.swift in Sources */,
 				64589B362B0A84420047711B /* ListViewEX.swift in Sources */,
+				642A034F2B0B592B00DBD9AD /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

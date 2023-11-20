@@ -21,3 +21,7 @@
 ### SpacerEX.swift - Spacer 사용방법
 
 ### ColorEX.swift - Color에 대한 기본적인 사용 예시
+
+### ContentView.swift - View에 대한 설명 + State 변수 설명 + modifier(padding, frame) 에 대한 설명
+
+### DarkColorEX.swift - Dark Mode 에 색을 넣는 방법
