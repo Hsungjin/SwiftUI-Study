@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		642A034F2B0B592B00DBD9AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A034E2B0B592B00DBD9AD /* ContentView.swift */; };
 		642A03512B0B729C00DBD9AD /* DarkColorEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03502B0B729C00DBD9AD /* DarkColorEX.swift */; };
+		642A03552B0BD05600DBD9AD /* DividerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03542B0BD05600DBD9AD /* DividerEX.swift */; };
+		642A03572B0BD18100DBD9AD /* ModalEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03562B0BD18100DBD9AD /* ModalEX.swift */; };
+		642A03602B0BD43000DBD9AD /* AlertEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A035F2B0BD43000DBD9AD /* AlertEX.swift */; };
+		642A03622B0BD84200DBD9AD /* TabViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03612B0BD84200DBD9AD /* TabViewEX.swift */; };
+		642A03642B0BDA7400DBD9AD /* ToggleEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03632B0BDA7400DBD9AD /* ToggleEX.swift */; };
+		642A03662B0BDCB800DBD9AD /* TextFieldEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03652B0BDCB800DBD9AD /* TextFieldEX.swift */; };
+		642A03682B0BDEF800DBD9AD /* SecureFieldEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03672B0BDEF800DBD9AD /* SecureFieldEX.swift */; };
+		642A036A2B0BE10C00DBD9AD /* ProgressEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642A03692B0BE10C00DBD9AD /* ProgressEX.swift */; };
 		64589B302B0A7ED40047711B /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B2F2B0A7ED40047711B /* ImageView.swift */; };
 		64589B322B0A803D0047711B /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B312B0A803D0047711B /* StackView.swift */; };
 		64589B342B0A81AE0047711B /* ScrollViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64589B332B0A81AE0047711B /* ScrollViewEX.swift */; };
@@ -27,6 +35,14 @@
 /* Begin PBXFileReference section */
 		642A034E2B0B592B00DBD9AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		642A03502B0B729C00DBD9AD /* DarkColorEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkColorEX.swift; sourceTree = "<group>"; };
+		642A03542B0BD05600DBD9AD /* DividerEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerEX.swift; sourceTree = "<group>"; };
+		642A03562B0BD18100DBD9AD /* ModalEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalEX.swift; sourceTree = "<group>"; };
+		642A035F2B0BD43000DBD9AD /* AlertEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertEX.swift; sourceTree = "<group>"; };
+		642A03612B0BD84200DBD9AD /* TabViewEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewEX.swift; sourceTree = "<group>"; };
+		642A03632B0BDA7400DBD9AD /* ToggleEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleEX.swift; sourceTree = "<group>"; };
+		642A03652B0BDCB800DBD9AD /* TextFieldEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEX.swift; sourceTree = "<group>"; };
+		642A03672B0BDEF800DBD9AD /* SecureFieldEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldEX.swift; sourceTree = "<group>"; };
+		642A03692B0BE10C00DBD9AD /* ProgressEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressEX.swift; sourceTree = "<group>"; };
 		64589B2F2B0A7ED40047711B /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		64589B312B0A803D0047711B /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		64589B332B0A81AE0047711B /* ScrollViewEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewEX.swift; sourceTree = "<group>"; };
@@ -54,6 +70,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642A03582B0BD1CC00DBD9AD /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
+		642A035B2B0BD1E300DBD9AD /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				64589B352B0A84420047711B /* ListViewEX.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		642A035C2B0BD21700DBD9AD /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				649D722F2B07F586009B9A25 /* TextView.swift */,
+				64589B2F2B0A7ED40047711B /* ImageView.swift */,
+				64589B3B2B0A89A30047711B /* ColorEX.swift */,
+				642A03502B0B729C00DBD9AD /* DarkColorEX.swift */,
+				642A03542B0BD05600DBD9AD /* DividerEX.swift */,
+				642A03652B0BDCB800DBD9AD /* TextFieldEX.swift */,
+				642A03672B0BDEF800DBD9AD /* SecureFieldEX.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		642A035D2B0BD21F00DBD9AD /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				649D72212B07EF39009B9A25 /* ButtonView.swift */,
+				642A03632B0BDA7400DBD9AD /* ToggleEX.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		642A035E2B0BD23D00DBD9AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				642A03562B0BD18100DBD9AD /* ModalEX.swift */,
+				642A035F2B0BD43000DBD9AD /* AlertEX.swift */,
+				642A03612B0BD84200DBD9AD /* TabViewEX.swift */,
+				642A03692B0BE10C00DBD9AD /* ProgressEX.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		649D72132B07EF39009B9A25 = {
 			isa = PBXGroup;
 			children = (
@@ -74,18 +139,17 @@
 			isa = PBXGroup;
 			children = (
 				649D721F2B07EF39009B9A25 /* ComponentApp.swift */,
-				649D72212B07EF39009B9A25 /* ButtonView.swift */,
-				649D722F2B07F586009B9A25 /* TextView.swift */,
 				649D722D2B07F3BD009B9A25 /* CheckPointView.swift */,
-				64589B2F2B0A7ED40047711B /* ImageView.swift */,
 				64589B312B0A803D0047711B /* StackView.swift */,
 				64589B332B0A81AE0047711B /* ScrollViewEX.swift */,
-				64589B352B0A84420047711B /* ListViewEX.swift */,
 				64589B372B0A86890047711B /* SectionEX.swift */,
 				64589B392B0A88130047711B /* SpacerEX.swift */,
-				64589B3B2B0A89A30047711B /* ColorEX.swift */,
 				642A034E2B0B592B00DBD9AD /* ContentView.swift */,
-				642A03502B0B729C00DBD9AD /* DarkColorEX.swift */,
+				642A035E2B0BD23D00DBD9AD /* Views */,
+				642A035D2B0BD21F00DBD9AD /* Button */,
+				642A035C2B0BD21700DBD9AD /* Text */,
+				642A035B2B0BD1E300DBD9AD /* Lists */,
+				642A03582B0BD1CC00DBD9AD /* Stacks */,
 				649D72232B07EF3B009B9A25 /* Assets.xcassets */,
 				649D72252B07EF3B009B9A25 /* Preview Content */,
 			);
@@ -178,9 +242,17 @@
 				649D722E2B07F3BD009B9A25 /* CheckPointView.swift in Sources */,
 				649D72302B07F586009B9A25 /* TextView.swift in Sources */,
 				642A03512B0B729C00DBD9AD /* DarkColorEX.swift in Sources */,
+				642A03552B0BD05600DBD9AD /* DividerEX.swift in Sources */,
+				642A03622B0BD84200DBD9AD /* TabViewEX.swift in Sources */,
+				642A03572B0BD18100DBD9AD /* ModalEX.swift in Sources */,
 				649D72222B07EF39009B9A25 /* ButtonView.swift in Sources */,
 				649D72202B07EF39009B9A25 /* ComponentApp.swift in Sources */,
+				642A036A2B0BE10C00DBD9AD /* ProgressEX.swift in Sources */,
 				64589B322B0A803D0047711B /* StackView.swift in Sources */,
+				642A03682B0BDEF800DBD9AD /* SecureFieldEX.swift in Sources */,
+				642A03642B0BDA7400DBD9AD /* ToggleEX.swift in Sources */,
+				642A03602B0BD43000DBD9AD /* AlertEX.swift in Sources */,
+				642A03662B0BDCB800DBD9AD /* TextFieldEX.swift in Sources */,
 				64589B362B0A84420047711B /* ListViewEX.swift in Sources */,
 				642A034F2B0B592B00DBD9AD /* ContentView.swift in Sources */,
 			);
