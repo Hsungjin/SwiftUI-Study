@@ -30,6 +30,11 @@
 		649D72272B07EF3B009B9A25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649D72262B07EF3B009B9A25 /* Preview Assets.xcassets */; };
 		649D722E2B07F3BD009B9A25 /* CheckPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D722D2B07F3BD009B9A25 /* CheckPointView.swift */; };
 		649D72302B07F586009B9A25 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649D722F2B07F586009B9A25 /* TextView.swift */; };
+		64D1105A2B0D21ED00613A6E /* LabelEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D110592B0D21ED00613A6E /* LabelEX.swift */; };
+		64D1105D2B0D233300613A6E /* NavigationViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1105C2B0D233300613A6E /* NavigationViewEX.swift */; };
+		64D1105F2B0D260D00613A6E /* NaviagationStackEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D1105E2B0D260D00613A6E /* NaviagationStackEX.swift */; };
+		64D110612B0D290D00613A6E /* AppearEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D110602B0D290D00613A6E /* AppearEX.swift */; };
+		64D110632B0D2C4400613A6E /* WarmUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D110622B0D2C4400613A6E /* WarmUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +62,11 @@
 		649D72262B07EF3B009B9A25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		649D722D2B07F3BD009B9A25 /* CheckPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointView.swift; sourceTree = "<group>"; };
 		649D722F2B07F586009B9A25 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		64D110592B0D21ED00613A6E /* LabelEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelEX.swift; sourceTree = "<group>"; };
+		64D1105C2B0D233300613A6E /* NavigationViewEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewEX.swift; sourceTree = "<group>"; };
+		64D1105E2B0D260D00613A6E /* NaviagationStackEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviagationStackEX.swift; sourceTree = "<group>"; };
+		64D110602B0D290D00613A6E /* AppearEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearEX.swift; sourceTree = "<group>"; };
+		64D110622B0D2C4400613A6E /* WarmUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,7 @@
 				642A03542B0BD05600DBD9AD /* DividerEX.swift */,
 				642A03652B0BDCB800DBD9AD /* TextFieldEX.swift */,
 				642A03672B0BDEF800DBD9AD /* SecureFieldEX.swift */,
+				64D110592B0D21ED00613A6E /* LabelEX.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -115,6 +126,11 @@
 				642A035F2B0BD43000DBD9AD /* AlertEX.swift */,
 				642A03612B0BD84200DBD9AD /* TabViewEX.swift */,
 				642A03692B0BE10C00DBD9AD /* ProgressEX.swift */,
+				64D110602B0D290D00613A6E /* AppearEX.swift */,
+				64589B332B0A81AE0047711B /* ScrollViewEX.swift */,
+				64589B312B0A803D0047711B /* StackView.swift */,
+				64589B372B0A86890047711B /* SectionEX.swift */,
+				64589B392B0A88130047711B /* SpacerEX.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -140,11 +156,8 @@
 			children = (
 				649D721F2B07EF39009B9A25 /* ComponentApp.swift */,
 				649D722D2B07F3BD009B9A25 /* CheckPointView.swift */,
-				64589B312B0A803D0047711B /* StackView.swift */,
-				64589B332B0A81AE0047711B /* ScrollViewEX.swift */,
-				64589B372B0A86890047711B /* SectionEX.swift */,
-				64589B392B0A88130047711B /* SpacerEX.swift */,
 				642A034E2B0B592B00DBD9AD /* ContentView.swift */,
+				64D1105B2B0D231E00613A6E /* Page */,
 				642A035E2B0BD23D00DBD9AD /* Views */,
 				642A035D2B0BD21F00DBD9AD /* Button */,
 				642A035C2B0BD21700DBD9AD /* Text */,
@@ -162,6 +175,16 @@
 				649D72262B07EF3B009B9A25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64D1105B2B0D231E00613A6E /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				64D1105C2B0D233300613A6E /* NavigationViewEX.swift */,
+				64D1105E2B0D260D00613A6E /* NaviagationStackEX.swift */,
+				64D110622B0D2C4400613A6E /* WarmUp.swift */,
+			);
+			path = Page;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,17 +259,22 @@
 			files = (
 				64589B3A2B0A88130047711B /* SpacerEX.swift in Sources */,
 				64589B302B0A7ED40047711B /* ImageView.swift in Sources */,
+				64D1105A2B0D21ED00613A6E /* LabelEX.swift in Sources */,
 				64589B3C2B0A89A30047711B /* ColorEX.swift in Sources */,
 				64589B342B0A81AE0047711B /* ScrollViewEX.swift in Sources */,
 				64589B382B0A86890047711B /* SectionEX.swift in Sources */,
 				649D722E2B07F3BD009B9A25 /* CheckPointView.swift in Sources */,
 				649D72302B07F586009B9A25 /* TextView.swift in Sources */,
 				642A03512B0B729C00DBD9AD /* DarkColorEX.swift in Sources */,
+				64D110612B0D290D00613A6E /* AppearEX.swift in Sources */,
 				642A03552B0BD05600DBD9AD /* DividerEX.swift in Sources */,
 				642A03622B0BD84200DBD9AD /* TabViewEX.swift in Sources */,
 				642A03572B0BD18100DBD9AD /* ModalEX.swift in Sources */,
+				64D110632B0D2C4400613A6E /* WarmUp.swift in Sources */,
+				64D1105D2B0D233300613A6E /* NavigationViewEX.swift in Sources */,
 				649D72222B07EF39009B9A25 /* ButtonView.swift in Sources */,
 				649D72202B07EF39009B9A25 /* ComponentApp.swift in Sources */,
+				64D1105F2B0D260D00613A6E /* NaviagationStackEX.swift in Sources */,
 				642A036A2B0BE10C00DBD9AD /* ProgressEX.swift in Sources */,
 				64589B322B0A803D0047711B /* StackView.swift in Sources */,
 				642A03682B0BDEF800DBD9AD /* SecureFieldEX.swift in Sources */,
