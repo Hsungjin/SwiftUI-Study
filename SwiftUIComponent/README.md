@@ -44,5 +44,10 @@
 
 ### LabelEX.swift - Label 과 Text의 비교, 사용 방법
 
-### NavigationViewEX.swift - NavigationView, NavigationLink, navigationtitle 사용 방법
+### NavigationViewEX.swift - NavigationView, NavigationLink, navigationtitle 사용 방법(이제 사라질 예정)
 
+### NavigationStackEX.swift - NavigationView, NavigationStack 의 차이점
+
+### AppearEX.swift - onAppear, onDisappear 뷰가 나타날때, 사라질때의 행동을 추가 할 수 있다.
+
+### WarmUp.swift - 이제까지 배운 컴포넌트를 활용해서 예제 만들기
