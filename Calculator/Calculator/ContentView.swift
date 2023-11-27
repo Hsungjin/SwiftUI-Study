@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// 각 버튼 타임에 대하여 열겨형으로 선언
 enum ButtonType: String {
     case first, second, third, fourth, fifth, sixth, seventh, eighth, nineth, zero
     case comma, equal, plus, minus, multiple, devide
@@ -84,8 +85,11 @@ struct ContentView: View {
     @State private var totalNumber: String = "0"
     @State private var tempNumber: Int = 0
     @State private var operatorType: ButtonType = .clear
+    // isNotEditing 변수는 해당 계산기에 숫자가 입력되어있는지 안되어있는지를 위한 변수
     @State private var isNotEditing: Bool = true
     
+    
+    // 열거형으로 선언된 버튼타입을 각 키보드 배열에 맞춰 4개/4개/4개/4개/3개 순으로 2차원 배열을 이용해 사용
     private let buttonData: [[ButtonType]] = [[.clear, .opposite, .percent, .devide],
                                               [.seventh, .eighth, .nineth, .multiple],
                                               [.fourth, .fifth, .sixth, .minus],
@@ -106,6 +110,7 @@ struct ContentView: View {
                         .font(.system(size: 60))
                 }
                 
+                // 2중 반복문을 사용해서 buttonData의 데이터를 이용
                 ForEach(buttonData, id: \.self) { line in
                     HStack {
                         ForEach(line, id: \.self) { item in
