@@ -8,6 +8,10 @@
 import Foundation
 import SwiftUI
 
+// Dial 이란 구조체 선언을 통해 코드 리펙토링
+// Identifiable - ID 값을 부여하기 위해 필요
+// ContentView의 Foreach 구문에서 사용하도록 Hashable 선언
+
 struct Dial: Identifiable, Hashable {
     var id = UUID()
     var mainNumber: String
@@ -15,6 +19,8 @@ struct Dial: Identifiable, Hashable {
     var buttonColor: Color? = .gray
 }
 
+// dialDummy 를 선언해서 코드 리펙토링
+// dialDummy는 2중 배열로 [[Dial(mainNumber, subAlphabet, buttonColor?], [~~~~]] 형태로 구성
 var dialDummy = [[Dial(mainNumber: "1",
                        subAlphabet: ["","",""]),
                   Dial(mainNumber: "2",
