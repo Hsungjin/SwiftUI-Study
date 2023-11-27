@@ -5,6 +5,9 @@
 //  Created by 황성진 on 11/27/23.
 //
 
+// 뷰빌더를 사용해서 겹치는 부분에 대해서 최대한 코드 요약한 앱
+// 뷰빌더를 사용하면 동일하게 겹치는 양식에 대해서 사용할 수 있어 코드 리팩토링에 용이하다
+
 import SwiftUI
 
 struct ContentView: View {
@@ -47,6 +50,8 @@ struct ContentView: View {
             .navigationTitle("설정")
         }
     }
+    
+    // 뷰빌더 파트
     
     @ViewBuilder
     private func iconImage(imageName: String, iconColor: Color) -> some View {
@@ -153,6 +158,9 @@ struct ContentView: View {
     //        }
     //    }
     
+    
+    // 뷰빌더를 선언해서 코드 리팩토링 하는 부분
+    // destination 을 제네릭 타입을 선언하여 사용
     @ViewBuilder
     private func navigationLinkCell<V: View>(imageName: String, cellTitle: String, subTitle: String? = nil, iconColor: Color ,destination: @escaping () -> V) -> some View {
         
