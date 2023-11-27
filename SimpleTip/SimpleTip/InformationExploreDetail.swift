@@ -85,7 +85,9 @@ struct InformationExploreDetail: View {
                         //                PageControl(numberOfPages: 7, currentPage: $selectedPage)
                     }
                 }
+                // 프래임의 크기를 UIScreen.main.bounds.000 를 사용해서 지정할 수 있음
                 .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 150)
+                // 탭뷰를 통해 앱 화면 하단의 스와이프해서 페이지 전환 효과를 줄 수 있음
                 .tabViewStyle(.page(indexDisplayMode: .always))
             }
         }
@@ -103,6 +105,7 @@ struct InformationExploreDetail: View {
     }
 }
 
+// 페이지 컨트롤을 하기위한 뷰
 struct PageControl: View {
     var numberOfPages: Int
     @Binding var currentPage: Int

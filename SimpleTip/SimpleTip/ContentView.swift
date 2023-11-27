@@ -7,12 +7,7 @@
 
 import SwiftUI
 
-struct MainCollection: Identifiable {
-    var id = UUID()
-    let headerTitle: String
-    let collections: [Collection]
-}
-
+// Collection 구조체 선언, 중복되어 코드의 양을 줄일 수 있는 부분에 대해 상수 선언
 struct Collection: Identifiable {
     let id = UUID()
     let symbolName: String
@@ -21,8 +16,10 @@ struct Collection: Identifiable {
 }
 
 struct ContentView: View {
+    // State 변수 searchText를 선언, 해당 변수는 검색창에서 사용
     @State var searchText = ""
     
+    // startList는 Collection, cameraList 라는 구조체의 자료형으로 코드 리팩토링할때 사용
     var startList: [Collection] = [Collection(symbolName: "hand.draw",
                                             symbolColor: [.blue, .white],
                                             title: "iPhone 탐색하기"),
@@ -58,10 +55,13 @@ struct ContentView: View {
                         .font(.system(size: 23))
                 }
                 Section {
+                    // 아래 주석처리된 코드를 startList 라는 변수를 이용해서 다음과 같이 라인수를 줄일 수 있음
                     ForEach(startList) { item in
                         NavigationLink(destination: informationDetail()) {
                             Image(systemName: item.symbolName)
                                 .resizable()
+                            // 그라디언트 사용방법
+                            //.foregroundStyle(.linearGradient(Gradient(colors: [.white, .blue]), startPoint: .leading, endPoint: .trailing))
                                 .foregroundStyle(.linearGradient(Gradient(colors: item.symbolColor), startPoint: .leading, endPoint: .trailing))
                                 .scaledToFit()
                                 .frame(width: 20)
@@ -144,6 +144,7 @@ struct ContentView: View {
                         .textCase(nil)
                 }
             }
+            // 검색뷰 사용방법
             .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "검색")
             .navigationTitle("모음")
         }

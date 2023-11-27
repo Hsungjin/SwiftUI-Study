@@ -25,6 +25,9 @@ struct informationDetail: View {
             .padding(.leading, 35)
             .frame(height: 180)
             .listRowSeparator(.hidden)
+            // 그라디언트 다른 사용법
+            // 기존 방법과 똑같이 사용하지만
+            // 두개의 그라디 언트를 넣어서 사용할 수 있음
             .listRowBackground(LinearGradient(colors: [.blue, .teal], startPoint: .leading, endPoint: .trailing).mask {
                 LinearGradient(gradient: Gradient(stops: [
                     .init(color: .black, location: 0.1),
