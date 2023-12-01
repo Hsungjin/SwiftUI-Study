@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640D96AC2B18EBAA00E2593F /* GradiantButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D96AB2B18EBAA00E2593F /* GradiantButton.swift */; };
+		640D96AE2B18F0A400E2593F /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D96AD2B18F0A400E2593F /* CustomCircleView.swift */; };
+		640D96B02B18F1F600E2593F /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D96AF2B18F1F500E2593F /* MotionAnimationView.swift */; };
+		640D96B32B18F67900E2593F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640D96B22B18F67900E2593F /* SettingsView.swift */; };
 		64432C3D2B1505BA00839A6E /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64432C3C2B1505BA00839A6E /* HikeApp.swift */; };
 		64432C3F2B1505BA00839A6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64432C3E2B1505BA00839A6E /* ContentView.swift */; };
 		64432C412B1505BC00839A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64432C402B1505BC00839A6E /* Assets.xcassets */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640D96AB2B18EBAA00E2593F /* GradiantButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantButton.swift; sourceTree = "<group>"; };
+		640D96AD2B18F0A400E2593F /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		640D96AF2B18F1F500E2593F /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		640D96B22B18F67900E2593F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		64432C392B1505BA00839A6E /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64432C3C2B1505BA00839A6E /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
 		64432C3E2B1505BA00839A6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		640D96B12B18F66100E2593F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				64432C3E2B1505BA00839A6E /* ContentView.swift */,
+				640D96B22B18F67900E2593F /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		64432C302B1505BA00839A6E = {
 			isa = PBXGroup;
 			children = (
@@ -59,10 +76,10 @@
 		64432C3B2B1505BA00839A6E /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				645437972B1651F30098DCD4 /* Component */,
 				6454379A2B1653F40098DCD4 /* Utility */,
 				64432C3C2B1505BA00839A6E /* HikeApp.swift */,
-				64432C3E2B1505BA00839A6E /* ContentView.swift */,
-				645437972B1651F30098DCD4 /* Component */,
+				640D96B12B18F66100E2593F /* Screen */,
 				64432C402B1505BC00839A6E /* Assets.xcassets */,
 				64432C422B1505BC00839A6E /* Preview Content */,
 			);
@@ -83,6 +100,8 @@
 				645437952B1650E30098DCD4 /* CardView.swift */,
 				645437982B1652100098DCD4 /* CustomBackgroundView.swift */,
 				6454379D2B1658D10098DCD4 /* CustomButtonView.swift */,
+				640D96AD2B18F0A400E2593F /* CustomCircleView.swift */,
+				640D96AF2B18F1F500E2593F /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -91,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				6454379B2B1654090098DCD4 /* ColorExtension.swift */,
+				640D96AB2B18EBAA00E2593F /* GradiantButton.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -166,9 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				64432C3F2B1505BA00839A6E /* ContentView.swift in Sources */,
+				640D96AE2B18F0A400E2593F /* CustomCircleView.swift in Sources */,
+				640D96AC2B18EBAA00E2593F /* GradiantButton.swift in Sources */,
 				645437962B1650E30098DCD4 /* CardView.swift in Sources */,
 				64432C3D2B1505BA00839A6E /* HikeApp.swift in Sources */,
+				640D96B32B18F67900E2593F /* SettingsView.swift in Sources */,
 				6454379E2B1658D10098DCD4 /* CustomButtonView.swift in Sources */,
+				640D96B02B18F1F600E2593F /* MotionAnimationView.swift in Sources */,
 				645437992B1652100098DCD4 /* CustomBackgroundView.swift in Sources */,
 				6454379C2B1654090098DCD4 /* ColorExtension.swift in Sources */,
 			);
