@@ -47,6 +47,7 @@ struct HomeView: View {
             
             Button {
                 withAnimation {
+                    playSound(sound: "success", type: "m4a")
                     isOnboardingViewActive = true
                 }
             } label: {
@@ -62,9 +63,11 @@ struct HomeView: View {
             .controlSize(.large)
         }//: VSTACK
         .onAppear() {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {isAnimating = true
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                isAnimating = true
             })
         }
+        .preferredColorScheme(.dark)
     }
 }
 

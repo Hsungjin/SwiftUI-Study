@@ -23,3 +23,14 @@
 
 - DispatchQueue (CircleGroupView)
   - 공부하자
+
+- Transition
+  - 뷰를 보여질때와 제거할때의 애니메이션
+  - 주의: Transition 의미는 뷰를 이동할때의 개념보다는, 뷰를 보여지게할때와 사라지게할때의 애니메이션 개념으로 이해
+
+- .preferredColorScheme(.dark)
+  - 뷰에 선언하면 해당 뷰를 dark or right 로 쓸건지 선언 가능
+
+- AVFoundation의 사용 (AudioPlayer)
+
+- haptickFeddback 의 사용 (OnboardingView)
