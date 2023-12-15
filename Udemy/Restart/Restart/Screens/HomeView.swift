@@ -63,6 +63,7 @@ struct HomeView: View {
             .controlSize(.large)
         }//: VSTACK
         .onAppear() {
+            // DispatchQueue.main.asyncAfter - 시간차를 두고 실행하기 위한 부분
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
                 isAnimating = true
             })

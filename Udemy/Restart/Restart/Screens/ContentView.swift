@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    // 처음 시작은 ContentView로 시작
+    // AppStorage를 이용해서 뷰간의 전환을 함
+    
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
     
     var body: some View {

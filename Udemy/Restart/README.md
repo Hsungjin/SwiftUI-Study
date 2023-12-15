@@ -21,8 +21,13 @@
   - withAnimation 을 사용해서 화면 전환간 부드러운 효과를 줌
   - repeatForever() 를 통해 반복가능
 
-- DispatchQueue (CircleGroupView)
-  - 공부하자
+- DispatchQueue.main.asyncAfter (HomeView)
+  ```swift
+  DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: {
+                isAnimating = true
+            })
+  ```
+  시간차를 두고 실행하기 위해 코드 적용
 
 - Transition
   - 뷰를 보여질때와 제거할때의 애니메이션
