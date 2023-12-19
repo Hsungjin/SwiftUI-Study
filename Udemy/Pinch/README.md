@@ -48,3 +48,28 @@
         }
     }
 ```
+
+- 두 손가락으로 확대 효과 (ContentView)
+  - MagnificationGesture 를 선언 후 조건을 넣어줌
+```swift
+// MARK: - 3. MAGNIFICATION
+  .gesture(
+      MagnificationGesture()
+        .onChanged { value in
+               withAnimation(.linear(duration: 1)) {
+                 if imageScale >= 1 && imageScale <= 5 {
+                    imageScale = value
+                } else if imageScale > 5 {
+                                imageScale = 5
+                }
+            }
+        }
+         .onEnded { _ in
+             if imageScale > 5 {
+                 imageScale = 5
+            } else if imageScale <= 1 {
+                resetImageState()
+              }
+          }
+   )
+```
