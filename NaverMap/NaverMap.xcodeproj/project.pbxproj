@@ -27,6 +27,7 @@
 		644E664D2B3C9728008CDDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		644E664E2B3C9867008CDDD3 /* NaverMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMap.swift; sourceTree = "<group>"; };
 		644E66502B3C9930008CDDD3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		644E66722B3D641F008CDDD3 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		9AD533F5CA3BC0BEF120E6F0 /* Pods_NaverMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -75,6 +76,7 @@
 				644E664D2B3C9728008CDDD3 /* Info.plist */,
 				644E663F2B3C93AD008CDDD3 /* NaverMapApp.swift */,
 				644E66412B3C93AD008CDDD3 /* ContentView.swift */,
+				644E66722B3D641F008CDDD3 /* Config.xcconfig */,
 				644E664E2B3C9867008CDDD3 /* NaverMap.swift */,
 				644E66502B3C9930008CDDD3 /* Coordinator.swift */,
 				644E66432B3C93AE008CDDD3 /* Assets.xcassets */,
@@ -225,6 +227,7 @@
 /* Begin XCBuildConfiguration section */
 		644E66482B3C93AE008CDDD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644E66722B3D641F008CDDD3 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -288,6 +291,7 @@
 		};
 		644E66492B3C93AE008CDDD3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 644E66722B3D641F008CDDD3 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;

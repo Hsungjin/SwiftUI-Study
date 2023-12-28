@@ -127,9 +127,4 @@ class Coordinator: NSObject, ObservableObject,
         view
     }
     
-    func getmark() {
-        marker.position = NMGLatLng(lat: 37.5670135, lng: 126.9783740)
-        marker.mapView = view
-    }
-    
 }

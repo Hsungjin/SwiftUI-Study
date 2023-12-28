@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationDefaultAccuracyReduced</key>
+	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>true</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>true</string>
+	<key>NMFClientId</key>
+	<string>$(NMFClientId)</string>
+</dict>
+</plist>
