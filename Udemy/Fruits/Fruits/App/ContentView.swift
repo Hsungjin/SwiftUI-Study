@@ -8,17 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    // MARK: - PROPERTIES
+    
+    var fuits: [Fruit] = fruitsData
+    
+    // MARK: - BODY
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationStack {
+            List {
+                ForEach(fuits.shuffled()) { item in
+                    NavigationLink(destination: FruitDetailView(fruit: item)) {
+                        FruitsRowView(fruit: item)
+                            .padding(.vertical, 4)
+                    }
+                }
+            }
+            .navigationTitle("Fruits")
+        } //: NAVIGATION
     }
 }
 
+// MARK: - PREVIEW
 #Preview {
-    ContentView()
+    ContentView(fuits: fruitsData)
 }
