@@ -33,6 +33,7 @@ struct FruitDetailView: View {
                             .multilineTextAlignment(.leading)
                         
                         // NUTRIENTS
+                        FruitsNutritens(fruit: fruit)
                         
                         // SUBHEADLINE
                         Text("Learn more about \(fruit.title)".uppercased())
@@ -54,6 +55,7 @@ struct FruitDetailView: View {
                 } //: VSTACK
                 .navigationBarTitle(fruit.title, displayMode: .inline)
                 .navigationBarHidden(true)
+                .navigationViewStyle(StackNavigationViewStyle())
             } //: SCROLL
             .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
