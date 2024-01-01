@@ -21,10 +21,9 @@ class Coordinator: NSObject, ObservableObject,
     @Published var userLocation: (Double, Double) = (0.0, 0.0)
     
     var locationManager: CLLocationManager?
+    let startInfoWindow = NMFInfoWindow()
     
     let view = NMFNaverMapView(frame: .zero)
-    
-    let marker = NMFMarker()
     
     override init() {
         super.init()
@@ -43,6 +42,7 @@ class Coordinator: NSObject, ObservableObject,
         
         view.mapView.addCameraDelegate(delegate: self)
         view.mapView.touchDelegate = self
+        
     }
     
     func mapView(_ mapView: NMFMapView, cameraWillChangeByReason reason: Int, animated: Bool) {
@@ -122,9 +122,22 @@ class Coordinator: NSObject, ObservableObject,
         }
     }
     
-    
     func getNaverMapView() -> NMFNaverMapView {
         view
+    }
+    
+    
+    func setMarker(lat : Double, lng:Double) {
+        let marker = NMFMarker()
+        marker.iconImage = NMF_MARKER_IMAGE_PINK
+        marker.position = NMGLatLng(lat: lat, lng: lng)
+        marker.mapView = view.mapView
+        
+        let infoWindow = NMFInfoWindow()
+        let dataSource = NMFInfoWindowDefaultTextSource.data()
+        dataSource.title = "서울특별시청"
+        infoWindow.dataSource = dataSource
+        infoWindow.open(with: marker)
     }
     
 }

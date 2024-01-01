@@ -9,18 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var coordinator: Coordinator = Coordinator.shared
+    @StateObject var firestoreManager = FireStoreManager()
     
     var body: some View {
-        VStack {
-            NaverMap()
-                .ignoresSafeArea(.all, edges: .top)
+        ZStack {
+            VStack {
+                NaverMap()
+                    .ignoresSafeArea(.all, edges: .top)
+            }
+            Spacer()
+
         }
         .onAppear {
             Coordinator.shared.checkIfLocationServiceIsEnabled()
+            Task {
+                await firestoreManager.fetchData()
+                Coordinator.shared.setMarker(lat: firestoreManager.mylat, lng: firestoreManager.mylng)
+            }
         }
     }
 }
 
-#Preview {
-    ContentView()
-}
+//
+//#Preview {
+//    ContentView()
+//}

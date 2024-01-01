@@ -7,4 +7,8 @@ target 'NaverMap' do
 
   # Pods for NaverMap
   pod 'NMapsMap'
+  pod 'FirebaseAnalytics'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+
 end

@@ -13,6 +13,8 @@
 		644E66472B3C93AE008CDDD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644E66462B3C93AE008CDDD3 /* Preview Assets.xcassets */; };
 		644E664F2B3C9867008CDDD3 /* NaverMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E664E2B3C9867008CDDD3 /* NaverMap.swift */; };
 		644E66512B3C9930008CDDD3 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E66502B3C9930008CDDD3 /* Coordinator.swift */; };
+		644E66AC2B3D91A5008CDDD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 644E66AB2B3D91A5008CDDD3 /* GoogleService-Info.plist */; };
+		644E66AE2B3D93EA008CDDD3 /* FireStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644E66AD2B3D93EA008CDDD3 /* FireStoreManager.swift */; };
 		9FEE83D9D6883F4B6772983D /* Pods_NaverMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD533F5CA3BC0BEF120E6F0 /* Pods_NaverMap.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		644E664E2B3C9867008CDDD3 /* NaverMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverMap.swift; sourceTree = "<group>"; };
 		644E66502B3C9930008CDDD3 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		644E66722B3D641F008CDDD3 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		644E66AB2B3D91A5008CDDD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		644E66AD2B3D93EA008CDDD3 /* FireStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreManager.swift; sourceTree = "<group>"; };
 		9AD533F5CA3BC0BEF120E6F0 /* Pods_NaverMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -74,8 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				644E664D2B3C9728008CDDD3 /* Info.plist */,
+				644E66AB2B3D91A5008CDDD3 /* GoogleService-Info.plist */,
 				644E663F2B3C93AD008CDDD3 /* NaverMapApp.swift */,
 				644E66412B3C93AD008CDDD3 /* ContentView.swift */,
+				644E66AD2B3D93EA008CDDD3 /* FireStoreManager.swift */,
 				644E66722B3D641F008CDDD3 /* Config.xcconfig */,
 				644E664E2B3C9867008CDDD3 /* NaverMap.swift */,
 				644E66502B3C9930008CDDD3 /* Coordinator.swift */,
@@ -163,6 +169,7 @@
 			files = (
 				644E66472B3C93AE008CDDD3 /* Preview Assets.xcassets in Resources */,
 				644E66442B3C93AE008CDDD3 /* Assets.xcassets in Resources */,
+				644E66AC2B3D91A5008CDDD3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +225,7 @@
 				644E66512B3C9930008CDDD3 /* Coordinator.swift in Sources */,
 				644E664F2B3C9867008CDDD3 /* NaverMap.swift in Sources */,
 				644E66422B3C93AD008CDDD3 /* ContentView.swift in Sources */,
+				644E66AE2B3D93EA008CDDD3 /* FireStoreManager.swift in Sources */,
 				644E66402B3C93AD008CDDD3 /* NaverMapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
