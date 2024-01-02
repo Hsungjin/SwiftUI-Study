@@ -50,11 +50,38 @@ struct AnimalDetailView: View {
                 
                 // FACTC
                 
+                Group {
+                    HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
+                    
+                    InsetFactView(animals: animals)
+                }
+                .padding(.horizontal)
+                
                 // DESCRIPTION
+                Group {
+                    HeadingView(headingImage: "info.circle", headingText: "All about \(animals.name)")
+                    
+                    Text(animals.description)
+                        .multilineTextAlignment(.leading)
+                        .layoutPriority(1)
+                }
+                .padding(.horizontal)
                 
                 // MAP
+                Group {
+                    HeadingView(headingImage: "map", headingText: "National Parks")
+                    
+                    InsetMapView()
+                }
+                .padding(.horizontal)
                 
                 // LINK
+                Group {
+                    HeadingView(headingImage: "books.vertical", headingText: "Lear More")
+                    
+                    ExternalWeblink(animals: animals)
+                }
+                .padding(.horizontal)
                 
             } //: VSTACK
             .navigationTitle("Learn about \(animals.name)")
