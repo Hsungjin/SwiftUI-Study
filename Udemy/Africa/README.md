@@ -44,3 +44,16 @@ extension Bundle {
     }
 }
 ```
+
+### 햅틱 피드백
+
+``` swift
+let hapticImpact = UIImpactFeedbackGenerator(style: .medium)
+
+Button {
+    hapticImpact.impactOccurred()
+} label: {
+    Image(systemName: "arrow.2.squarepath")
+}
+```
+
