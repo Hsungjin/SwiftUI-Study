@@ -13,6 +13,10 @@ struct NaverMap: UIViewRepresentable {
     func makeCoordinator() -> Coordinator {
         Coordinator.shared
     }
+//    
+//    func setmark(lat: Double, lng: Double) {
+//        Coordinator.shared.setMarker(lat: lat, lng: lng)
+//    }
     
     func makeUIView(context: Context) -> NMFNaverMapView {
         context.coordinator.getNaverMapView()

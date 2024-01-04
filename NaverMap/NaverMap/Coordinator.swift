@@ -127,7 +127,7 @@ class Coordinator: NSObject, ObservableObject,
     }
     
     
-    func setMarker(lat : Double, lng:Double) {
+    func setMarker(lat : Double, lng: Double, name: String) {
         let marker = NMFMarker()
         marker.iconImage = NMF_MARKER_IMAGE_PINK
         marker.position = NMGLatLng(lat: lat, lng: lng)
@@ -135,7 +135,7 @@ class Coordinator: NSObject, ObservableObject,
         
         let infoWindow = NMFInfoWindow()
         let dataSource = NMFInfoWindowDefaultTextSource.data()
-        dataSource.title = "서울특별시청"
+        dataSource.title = name
         infoWindow.dataSource = dataSource
         infoWindow.open(with: marker)
     }

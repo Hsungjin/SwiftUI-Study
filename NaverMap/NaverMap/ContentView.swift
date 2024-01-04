@@ -15,6 +15,7 @@ struct ContentView: View {
         ZStack {
             VStack {
                 NaverMap()
+//                NaverMap().setmark(lat: firestoreManager.mylat, lng: firestoreManager.mylng)
                     .ignoresSafeArea(.all, edges: .top)
             }
             Spacer()
@@ -24,7 +25,11 @@ struct ContentView: View {
             Coordinator.shared.checkIfLocationServiceIsEnabled()
             Task {
                 await firestoreManager.fetchData()
-                Coordinator.shared.setMarker(lat: firestoreManager.mylat, lng: firestoreManager.mylng)
+//                Coordinator.shared.setMarker(lat: firestoreManager.mylat, lng: firestoreManager.mylng)
+                for item in firestoreManager.myDataModels {
+//                    print(firestoreManager.myLocation[i].latitude)
+                    Coordinator.shared.setMarker(lat: item.location.latitude, lng: item.location.longitude, name: item.name)
+                }
             }
         }
     }
