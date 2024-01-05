@@ -1,17 +1,12 @@
-# TouchDown 클론 코딩
+//
+//  CodableBundleExtension.swift
+//  TouchDown
+//
+//  Created by 황성진 on 1/6/24.
+//
 
-## 이번 강의틀 통해 배운 내용
+import Foundation
 
-### 노치에서 바로 밑으로 뷰 위치 시키기
-
-```swift
-soveView()
-    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-```
-
-### Json 파일 읽어오기
-
-```swift
 extension Bundle {
     func decode<T: Codable>(_ file: String) -> T {
         // 1. LOCATE the JSOn file
@@ -36,5 +31,3 @@ extension Bundle {
         return decodedData
     }
 }
-```
-
