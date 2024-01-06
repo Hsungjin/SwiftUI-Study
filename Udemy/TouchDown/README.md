@@ -38,3 +38,25 @@ extension Bundle {
 }
 ```
 
+### Custom Shpae 만들기
+
+``` swift
+struct CustomShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        let path = UIBezierPath(roundedRect: rect, byRoundingCorners: [.topLeft, .topRight], cornerRadii: CGSize(width: 35, height: 35))
+        
+        return Path(path.cgPath)
+    }
+}
+
+.background(
+    Color.white
+        .clipShape(CustomShape())
+)
+```
+
+### zIndex
+
+- 앱이 실행되는 동안 어떠한 뷰를 다른뷰 뒤로 밀거나 탭할 때 특정 뷰를 앞으로 가져오고 싶을때 사용
+
+- 뷰의 기본 Zindex 는 0 이지만 양수 또는 음수로 변경 가능

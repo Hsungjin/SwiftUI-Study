@@ -41,6 +41,7 @@
 		6486EC4F2B4942EF008D5AFF /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486EC4E2B4942EF008D5AFF /* RatingsSizesDetailView.swift */; };
 		6486EC512B4944E8008D5AFF /* QuantitiyFavouriteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486EC502B4944E8008D5AFF /* QuantitiyFavouriteDetailView.swift */; };
 		6486EC532B49489D008D5AFF /* AddToCartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486EC522B49489D008D5AFF /* AddToCartDetailView.swift */; };
+		6486EC552B49499D008D5AFF /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486EC542B49499D008D5AFF /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		6486EC4E2B4942EF008D5AFF /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
 		6486EC502B4944E8008D5AFF /* QuantitiyFavouriteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantitiyFavouriteDetailView.swift; sourceTree = "<group>"; };
 		6486EC522B49489D008D5AFF /* AddToCartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToCartDetailView.swift; sourceTree = "<group>"; };
+		6486EC542B49499D008D5AFF /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				6486EC202B487F7B008D5AFF /* Constant.swift */,
 				6486EC4C2B49407D008D5AFF /* CustomShape.swift */,
+				6486EC542B49499D008D5AFF /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				6486EC332B493313008D5AFF /* CategoryItemView.swift in Sources */,
 				6486EC2F2B488ED8008D5AFF /* FeaturedTabView.swift in Sources */,
 				6486EC4D2B49407D008D5AFF /* CustomShape.swift in Sources */,
+				6486EC552B49499D008D5AFF /* Shop.swift in Sources */,
 				6486EC292B488D1A008D5AFF /* PlayerModel.swift in Sources */,
 				6486EC3F2B4939EB008D5AFF /* BrandModel.swift in Sources */,
 				6486EC392B493725008D5AFF /* TitleView.swift in Sources */,
