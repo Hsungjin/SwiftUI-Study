@@ -16,6 +16,8 @@
 		6486EC792B496C0B008D5AFF /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6486EC762B496C0B008D5AFF /* sound-rise.mp3 */; };
 		6486EC7A2B496C0B008D5AFF /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6486EC772B496C0B008D5AFF /* sound-ding.mp3 */; };
 		6486EC7B2B496C0B008D5AFF /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6486EC782B496C0B008D5AFF /* sound-tap.mp3 */; };
+		6486EC842B4A3782008D5AFF /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486EC822B4A3782008D5AFF /* Item+CoreDataClass.swift */; };
+		6486EC852B4A3782008D5AFF /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486EC832B4A3782008D5AFF /* Item+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		6486EC772B496C0B008D5AFF /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		6486EC782B496C0B008D5AFF /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		6486EC812B496D14008D5AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6486EC822B4A3782008D5AFF /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6486EC832B4A3782008D5AFF /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		6486EC562B496B90008D5AFF = {
 			isa = PBXGroup;
 			children = (
+				6486EC822B4A3782008D5AFF /* Item+CoreDataClass.swift */,
+				6486EC832B4A3782008D5AFF /* Item+CoreDataProperties.swift */,
 				6486EC612B496B90008D5AFF /* Devote */,
 				6486EC602B496B90008D5AFF /* Products */,
 			);
@@ -205,6 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6486EC852B4A3782008D5AFF /* Item+CoreDataProperties.swift in Sources */,
+				6486EC842B4A3782008D5AFF /* Item+CoreDataClass.swift in Sources */,
 				6486EC6C2B496B92008D5AFF /* Persistence.swift in Sources */,
 				6486EC652B496B90008D5AFF /* ContentView.swift in Sources */,
 				6486EC6F2B496B92008D5AFF /* Devote.xcdatamodeld in Sources */,
