@@ -1,3 +1,4 @@
 .DS_Store
 *.xcconfig
 GoogleService-Info.plist
+SwiftUIStorage/SwiftUIStorage/GoogleService-Info.plist
