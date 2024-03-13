@@ -11,6 +11,10 @@
 		640998422BA2065200829F9D /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640998412BA2065200829F9D /* CounterView.swift */; };
 		640998442BA2102D00829F9D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640998432BA2102D00829F9D /* AppView.swift */; };
 		640998462BA210AA00829F9D /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640998452BA210AA00829F9D /* AppFeature.swift */; };
+		640998482BA2131E00829F9D /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640998472BA2131E00829F9D /* ContactsFeature.swift */; };
+		6409984A2BA213D000829F9D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640998492BA213D000829F9D /* ContactsView.swift */; };
+		6409984C2BA214CA00829F9D /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409984B2BA214CA00829F9D /* AddContactFeature.swift */; };
+		6409984E2BA2155E00829F9D /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6409984D2BA2155E00829F9D /* AddContactView.swift */; };
 		6476A2582B5117B600F73262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6476A2572B5117B600F73262 /* Assets.xcassets */; };
 		6476A25B2B5117B600F73262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6476A25A2B5117B600F73262 /* Preview Assets.xcassets */; };
 		6476A2632B51180A00F73262 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 6476A2622B51180A00F73262 /* ComposableArchitecture */; };
@@ -33,6 +37,10 @@
 		640998412BA2065200829F9D /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		640998432BA2102D00829F9D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		640998452BA210AA00829F9D /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		640998472BA2131E00829F9D /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		640998492BA213D000829F9D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		6409984B2BA214CA00829F9D /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
+		6409984D2BA2155E00829F9D /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		6476A2502B5117B400F73262 /* TCA_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCA_tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6476A2532B5117B400F73262 /* TCA_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCA_tutorialApp.swift; sourceTree = "<group>"; };
 		6476A2572B5117B600F73262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,10 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				6476A2532B5117B400F73262 /* TCA_tutorialApp.swift */,
-				6409983F2BA2055400829F9D /* CounterFeature.swift */,
-				640998412BA2065200829F9D /* CounterView.swift */,
 				640998452BA210AA00829F9D /* AppFeature.swift */,
 				640998432BA2102D00829F9D /* AppView.swift */,
+				6409983F2BA2055400829F9D /* CounterFeature.swift */,
+				640998412BA2065200829F9D /* CounterView.swift */,
+				640998472BA2131E00829F9D /* ContactsFeature.swift */,
+				640998492BA213D000829F9D /* ContactsView.swift */,
+				6409984B2BA214CA00829F9D /* AddContactFeature.swift */,
+				6409984D2BA2155E00829F9D /* AddContactView.swift */,
 				6476A2572B5117B600F73262 /* Assets.xcassets */,
 				6476A2592B5117B600F73262 /* Preview Content */,
 			);
@@ -217,8 +229,12 @@
 				640998442BA2102D00829F9D /* AppView.swift in Sources */,
 				640998462BA210AA00829F9D /* AppFeature.swift in Sources */,
 				6476A2862B51320D00F73262 /* TCA_tutorialApp.swift in Sources */,
+				6409984C2BA214CA00829F9D /* AddContactFeature.swift in Sources */,
 				640998402BA2055400829F9D /* CounterFeature.swift in Sources */,
 				640998422BA2065200829F9D /* CounterView.swift in Sources */,
+				6409984E2BA2155E00829F9D /* AddContactView.swift in Sources */,
+				640998482BA2131E00829F9D /* ContactsFeature.swift in Sources */,
+				6409984A2BA213D000829F9D /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

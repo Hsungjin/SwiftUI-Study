@@ -13,19 +13,25 @@ struct AppFeature {
     struct State {
         var tab1 = CounterFeature.State()
         var tab2 = CounterFeature.State()
+        var tab3 = ContactsFeature.State()
     }
     
     enum Action {
         case tab1(CounterFeature.Action)
         case tab2(CounterFeature.Action)
+        case tab3(ContactsFeature.Action)
     }
     
     var body: some ReducerOf<Self> {
         Scope(state: \.tab1, action: \.tab1) {
-          CounterFeature()
+            CounterFeature()
         }
         Scope(state: \.tab2, action: \.tab2) {
-          CounterFeature()
+            CounterFeature()
+        }
+        
+        Scope(state: \.tab3, action: \.tab3) {
+            ContactsFeature()
         }
         
         Reduce { state, action in
